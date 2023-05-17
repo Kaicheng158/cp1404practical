@@ -1,10 +1,3 @@
-"""
-CP1404/CP5632 Practical - Suggested Solution
-GUI program to convert miles to kilometres
-Lindsay Ward, IT@JCU
-Print statements included to see when the functions run
-"""
-
 from kivy.app import App
 from kivy.lang import Builder
 from kivy.properties import StringProperty
