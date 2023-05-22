@@ -1,7 +1,7 @@
 from project import Project
 
 
-def main():
+def main(incomplete_project=None):
         MENU = "Menu: \n(L)oad projects" \
                "\n(S)ave projects" \
                "\n(D)isplay projects" \
@@ -30,7 +30,7 @@ def main():
                 complete_project, incomeplete = check_project(projects)
                 print('Incomplete projects')
                 incomplete_project.sort()
-                display_projectf(incomeplete_project)
+                display_project(incomeplete_project)
                 print("")
                 print("Completed projects: ")
                 complete_project.sort()
