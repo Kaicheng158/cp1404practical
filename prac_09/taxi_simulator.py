@@ -19,7 +19,7 @@ def main():
     total_bill = 0
     taxis = [Taxi("Prius", 100), SilverServiceTaxi("Limo", 100, 2),
              SilverServiceTaxi("Hummer", 200, 4)]
-    current_taxi = None
+    current_taxi = ""
     print("Let's drive!")
     print(MENU)
     menu_choice = input(">>> ").lower()

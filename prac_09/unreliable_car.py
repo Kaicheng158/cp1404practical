@@ -4,7 +4,7 @@ UnreliableCar class, derived from Car
 """
 
 from random import randint
-from prac_09.car import Car
+from prac_06.car import Car
 
 
 class UnreliableCar(Car):
